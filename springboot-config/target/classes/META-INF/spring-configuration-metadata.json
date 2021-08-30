@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "db",
+      "type": "com.ajay.springbootconfig.configproperties.DbConfig",
+      "sourceType": "com.ajay.springbootconfig.configproperties.DbConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "db.connection",
+      "type": "java.lang.String",
+      "sourceType": "com.ajay.springbootconfig.configproperties.DbConfig"
+    },
+    {
+      "name": "db.host",
+      "type": "java.lang.String",
+      "sourceType": "com.ajay.springbootconfig.configproperties.DbConfig"
+    },
+    {
+      "name": "db.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ajay.springbootconfig.configproperties.DbConfig"
+    }
+  ],
+  "hints": []
+}

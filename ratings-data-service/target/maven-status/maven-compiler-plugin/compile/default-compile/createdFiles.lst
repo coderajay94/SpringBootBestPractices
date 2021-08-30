@@ -1,0 +1,4 @@
+com\ajay\ratingsdataservice\RatingsDataServiceApplication.class
+com\ajay\ratingsdataservice\dto\UserRating.class
+com\ajay\ratingsdataservice\dto\Rating.class
+com\ajay\ratingsdataservice\resources\RatingsResource.class

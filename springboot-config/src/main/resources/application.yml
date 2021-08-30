@@ -1,0 +1,14 @@
+spring:
+ #profiles.active: test cloud:  config:   uri:      - http://localhost:8888   import:    - configserver application:  name: spring-boot-config
+app:
+ name: sprin-gboot-config
+ description: for learning config
+my:
+ greeting: He llo wor ld
+ list:
+  names: ajay,raghu,kumar 
+db:
+ connection: con nection-url
+ host: db_ho st
+ port: 1234
+management:  endpoints:    web:      exposure:        include:        - "*"
