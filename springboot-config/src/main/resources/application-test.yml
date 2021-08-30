@@ -1,0 +1,12 @@
+app:
+ name: springboot-config
+ description: for learning config
+my:
+ greeting: Test Hello world
+ list:
+  names: ajay,raghu,kumar 
+db:
+ connection: test connection-url
+ host: test_db_host
+ port: 1234
+management:  endpoints:    web:      exposure:        include:        - "*"
